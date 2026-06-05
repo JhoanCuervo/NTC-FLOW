@@ -21,7 +21,7 @@ self.addEventListener("activate", (e) => {
   e.waitUntil(
     caches.keys().then((cachesNames) =>
       cachesNames.map((cacheName) => {
-        if (cacheName.indexOf(cacheName) === -1) {
+        if (caheWitheList.indexOf(cacheName) === -1) {
           return caches.delete(cacheName);
         }
       })
