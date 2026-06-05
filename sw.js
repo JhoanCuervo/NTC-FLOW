@@ -1,4 +1,4 @@
-const CACHE_NAME = "v1_cache_panel_adm",
+const CACHE_NAME = "v2_cache_panel_adm",
   urlsToCache = [
     "https://script.google.com/macros/s/AKfycbzNIAxoA6gU9efPWsbmWDz9zVDA78pr_65vPU4a-Dz4IlqnT6FPFSK2KoJwOvQU-Ie9/exec",
     "./manifest.json",
